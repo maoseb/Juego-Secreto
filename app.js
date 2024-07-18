@@ -1,7 +1,7 @@
 let numeroSecreto = 0;
 let intentos = 0;
 let listaDeLosnumerosSorteados =[];
-let numeroMaximo = 100
+let numeroMaximo = 500
 
 //console.log(numeroSecreto);
 
@@ -19,7 +19,7 @@ function asignarTextoElementos(elemento,texto){
     return;
 }
 
-asignarTextoElementos("h1", "juego del numero secreto");
+asignarTextoElementos("h1", "Adivine el número");
 asignarTextoElementos("p",`Digita un numero entre 1 al ${numeroMaximo}`);
 
 
